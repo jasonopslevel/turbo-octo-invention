@@ -1,5 +1,16 @@
 ---
 version: 1
-repository:
+service:
   name: turbo-octo-invention
-  owner: jason_s_team
+  lifecycle:
+  tier:
+  product:
+  owner:
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  repositories:
+  tools:
+  dependencies:
