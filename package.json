@@ -1,0 +1,20 @@
+{
+  "name": "turbo-octo",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand",
+    "stest": "jest --silent",
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.8.1"
+  },
+  "resolutions": {
+    "**/**/lodash": "^4.17.16"
+  }
+}
