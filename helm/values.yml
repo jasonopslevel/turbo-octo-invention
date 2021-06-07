@@ -1,7 +1,7 @@
 {
     "generic-microservice-helm-chart": {
         "podAnnotations": {
-            "ad.datadoghq.com.a.logs": "source",
+            "ad.datadoghq.com.a.logs": "dst",
         }
     }
 }
