@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "vuex": "^3.0.1"
+    "vuex": "^1.0.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.8.1"
