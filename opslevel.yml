@@ -12,11 +12,5 @@ service:
   aliases:
   tags:
   repositories:
-  - name: jasonopslevel/turbo-octo-invention
-    path: "/"
-    provider: github
-  - name: big-river-books-dev-ops/turbo-octo-invention
-    path: "/"
-    provider: gitlab
   tools:
   dependencies:
