@@ -12,7 +12,7 @@ service:
   aliases:
   tags:
   repositories:
-  - name: jason-opslevel/turbo-octo-invention
+  - name: jasonopslevel/turbo-octo-invention
     path: "/"
     provider: github
   - name: big-river-books-dev-ops/turbo-octo-invention
