@@ -16,9 +16,9 @@
     "application/json"
   ],
    "APIKeyHeader": {
-     type: "apiKey",
-     in: "header",
-     name: "X-API-Key"
+     "type": "apiKey",
+     "in": "header",
+     "name": "X-API-Key"
    }
    "APIKeyQueryParam": {
      "type": "apiKey",
