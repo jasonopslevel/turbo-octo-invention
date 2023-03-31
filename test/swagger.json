@@ -15,6 +15,16 @@
   "consumes": [
     "application/json"
   ],
+   "APIKeyHeader": {
+     type: "apiKey",
+     in: "header",
+     name: "X-API-Key"
+   }
+   "APIKeyQueryParam": {
+     "type": "apiKey",
+     "in": "query",
+     "name": "api_key"
+  },
   "produces": [
     "application/json"
   ],
